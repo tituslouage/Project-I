@@ -1,3 +1,30 @@
-body {
+/* Font Incluusions */
+@font-face {
+    font-family: 'belwe-bt-bd-bold';
+    src: url('../fonts/general-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+/* Actual CSS*/
+
+body {
+}
+
+main{
+    padding-top: 5%;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    color: #503C1F;
+    background-color: #BE9A8A;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+    width: 90%;
+    display: inline-block;
+    font-family: belwe-bt-bd-bold, serif;
+    align-content: center;
 }
