@@ -25,4 +25,3 @@ function crystalFilter(e){
     e.preventDefault();
     console.log('iets');
 }
-
