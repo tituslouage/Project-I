@@ -18,27 +18,58 @@ section.player{
 }
 button{
     position: fixed;
-    top: 45%;
-
+    top: 47%;
+    right: 4%;
     font-family: belwe-bt-bd-bold, serif;
     background-color: #FFFA01;
     color: #070002;
     border-style: ridge;
-    height: 10%;
-    width: 10%;
+    height: 6%;
+    width: 7.5%;
     border-radius: 25px;
     z-index: 1;
+}
+.player .cards{
+    position: fixed;
+    left: 25%;
+    bottom: 0;
 }
 .cards{
     background-color: lightgray;
     width: 50%;
+    height: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 /*temp css (examples)*/
-.exampleCard{
-    position: relative;
-    width: 150px;
-    height: 200px;
+div.exampleCard{
+    width: 160px;
+    height: 260px;
+    margin-right: auto;
+    background-image: url(../images/dummycard.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: -5px -5px;
     background-color: papayawhip;
+    transform: rotate(330deg);
+    z-index: 0;
+}
+div.exampleCard + div.exampleCard{
+    margin-left: auto;
+    z-index: 1;
+    transform: rotate(336deg);
+}
+div.exampleCard + div.exampleCard + div.exampleCard{
+    z-index: 2;
+}
+div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
+    z-index: 3;
+}
+div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
+    z-index: 4;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
 }
