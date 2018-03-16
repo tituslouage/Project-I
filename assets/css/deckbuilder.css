@@ -1,3 +1,4 @@
+/*main page*/
 body {
 
 }
@@ -5,4 +6,40 @@ body {
 header {
     padding: 10px;
     border-bottom: solid 1px black;
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    padding: 25px;
+    padding-top: 80px;
+    border-bottom: solid 1px black;
+}
+
+footer {
+    height: 10px;
+    padding: 10px;
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/*details*/
+ul {
+   display: inline-block;
+}
+
+li {
+    display: inline-block;
+
+}
+
+footer aside {
+    position: absolute;
+    left: 50%;
+    bottom: 95%;
 }
