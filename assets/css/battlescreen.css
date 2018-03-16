@@ -1,0 +1,16 @@
+body{
+}
+button{
+    position: absolute;
+    left: 74rem;
+    top: 17.3rem;
+
+    font-family: belwe-bt-bd-bold, serif;
+    background-color: #FFFA01;
+    color: #070002;
+    border-style: ridge;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 25px;
+    z-index: 1;
+}
