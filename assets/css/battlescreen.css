@@ -1,24 +1,22 @@
 body{
 }
 section.enemy{
-    background-color: lightsalmon;
     margin-bottom: auto;
-    height: 50%;
+    height: 40%;
     width: 100%;
     position: fixed;
     top: 0;
 }
 section.player{
-    background-color: lightgreen;
     margin-top:auto;
-    height: 50%;
+    height: 60%;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 button{
     position: fixed;
-    top: 47%;
+    top: 37%;
     right: 4%;
     font-family: belwe-bt-bd-bold, serif;
     background-color: #FFFA01;
@@ -35,41 +33,118 @@ button{
     bottom: 0;
 }
 .cards{
-    background-color: lightgray;
     width: 50%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
 }
-/*temp css (examples)*/
-div.exampleCard{
+
+.player div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard + div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+.player div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard +div.exampleCard:hover{
+    position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
+}
+
+
+
+.player div.exampleCard{
+    position: absolute;
+    bottom: -132px;
+    display: inline-block;
     width: 160px;
-    height: 260px;
+    height: 220px;
+    left:2%;
     margin-right: auto;
     background-image: url(../images/dummycard.png);
     -webkit-background-size: contain;
     background-size: contain;
-    bottom: 20px;
     background-repeat: no-repeat;
     background-position: -5px -5px;
-    background-color: papayawhip;
-    transform: rotate(330deg);
+    transform: rotate(337.5deg);
     z-index: 0;
 }
-div.exampleCard + div.exampleCard{
+.player div.exampleCard + div.exampleCard{
     margin-left: auto;
     z-index: 1;
-    transform: rotate(336deg);
+    transform: rotate(342.5deg);
+    bottom: -106px;
+    left: 12%;
 }
-div.exampleCard + div.exampleCard + div.exampleCard{
+.player div.exampleCard + div.exampleCard + div.exampleCard{
+    transform: rotate(347.5deg);
     z-index: 2;
+    bottom: -91px;
+    left: 23%;
 }
-div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
+    transform: rotate(352.5deg);
     z-index: 3;
+    bottom: -80px;
+    left: 34%;
 }
-div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard{
     z-index: 4;
+    transform: rotate(357.5deg);
+    bottom: -74px;
+    left: 45%;
     margin-left: auto;
     margin-right: auto;
-    bottom: 20px;
+}
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard+ div.exampleCard{
+    z-index: 5;
+    transform: rotate(2.5deg);
+    bottom: -74px;
+    left: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard+ div.exampleCard+ div.exampleCard{
+    transform: rotate(7.5deg);
+    z-index: 6;
+    bottom: -80px;
+    left: 66%;
+}
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard{
+    transform: rotate(12.5deg);
+    z-index: 7;
+    bottom: -91px;
+    left: 77%;
+}
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard{
+    margin-left: auto;
+    z-index: 8;
+    transform: rotate(17.5deg);
+    bottom: -106px;
+    left: 88%;
+}
+.player div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard + div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard+ div.exampleCard{
+    bottom: -132px;
+    left:98%;
+    transform: rotate(22.5deg);
+    z-index: 9;
 }
