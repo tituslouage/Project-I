@@ -6,7 +6,11 @@ let deckExpanded = false;
 
 function init(){
     document.querySelector('button').addEventListener('click', currentDeckShow);
-    document.querySelector('header a').addEventListener('click', crystalFilter);
+
+    let radioInputs = document.querySelectorAll('header input[type=radio]');
+    for (let i = 0; i < radioInputs.length; i++){
+        radioInputs[i].addEventListener('change', crystalFilter)
+    }
 }
 
 function currentDeckShow(e){
@@ -23,5 +27,7 @@ function currentDeckShow(e){
 
 function crystalFilter(e){
     e.preventDefault();
-    console.log('iets');
+    let labelName = '#l';
+    labelName += this.id;
+    document.querySelector(labelName).className = 'manaselected';
 }

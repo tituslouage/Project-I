@@ -29,17 +29,40 @@ footer {
 
 
 /*details*/
+label{
+    background-image: url('../images/emptyCrystal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
 ul {
    display: inline-block;
 }
 
+input{
+    display: none;
+}
+
 li {
     display: inline-block;
+}
 
+li p{
+    text-align: center;
 }
 
 footer aside {
     position: absolute;
     left: 50%;
     bottom: 95%;
+}
+
+/*classes*/
+.mananot{
+
+}
+.manaselected{
+    background-image: url('../images/manaCrystal.png');
 }
