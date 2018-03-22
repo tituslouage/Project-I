@@ -1,6 +1,9 @@
 /* Actual CSS*/
 
 body {
+    background-image: url("../media/achtergrondMenu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main{
@@ -11,8 +14,12 @@ main{
 }
 
 button {
-    color: #503C1F;
-    background-color: #BE9A8A;
+    color: white;
+    background-image: url("../media/achtergrondKnoppenMenu.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
     font-size: 2.3rem;
     margin-bottom: 20px;
     width: 90%;
