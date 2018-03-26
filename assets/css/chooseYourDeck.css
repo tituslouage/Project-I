@@ -1,15 +1,39 @@
-/* Actual CSS*/
-
-body {
-
-}
-
 main{
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 
 section{
-    border: solid 1px black;
+    border: solid 5px black;
+    height: 100%;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+/*CLASSES AND ID's*/
+
+#fotos{
+    display: inline-block;
+    width: 55%;
+    padding: 10px;
+}
+
+#fotos img{
+    width: 200px;
+}
+
+#arrow2{
+    display: inline-block;
+    width: 50px;
+}
+
+#arrow2 img{
+    width: 100%;
 }
