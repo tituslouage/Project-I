@@ -1,0 +1,15 @@
+/* Actual CSS*/
+
+body {
+
+}
+
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    border: solid 1px black;
+}
