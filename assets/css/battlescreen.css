@@ -1,13 +1,13 @@
 body{
 }
-section.enemy{
+div.enemy{
     margin-bottom: auto;
     height: 40%;
     width: 100%;
     position: fixed;
     top: 0;
 }
-section.player{
+div.player{
     margin-top:auto;
     height: 60%;
     width: 100%;
@@ -26,6 +26,10 @@ button{
     width: 7.5%;
     border-radius: 25px;
     z-index: 1;
+}
+div.cards{
+    position: absolute;
+    overflow: visible;
 }
 .player .cards{
     position: fixed;
@@ -70,7 +74,13 @@ button{
     position: absolute;  transform: rotate(0deg);  z-index: 10;  width: 240px;  height: 330px;  bottom: 50%;
 }
 
-
+div#exampleHero{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+}
 
 .player div.exampleCard{
     position: absolute;
