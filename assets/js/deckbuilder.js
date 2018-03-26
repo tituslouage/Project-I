@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', init);
 let deckExpanded = false;
 
 function init(){
-    document.querySelector('button').addEventListener('click', currentDeckShow);
-
     let radioInputs = document.querySelectorAll('header input[type=radio]');
     for (let i = 0; i < radioInputs.length; i++){
         radioInputs[i].addEventListener('change', crystalFilter)
